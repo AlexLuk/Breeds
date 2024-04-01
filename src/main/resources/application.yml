@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:file:///./db/breeds
+    username: sa
+    password: password
+  sql:
+    init:
+      mode: always
+breed-api:
+  url: https://dog.ceo/api/
